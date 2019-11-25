@@ -1,2 +1,4 @@
-# weekend-blocker-chrome-extention
-Weekend Blocker from merging
+Weekend Blocker
+============
+
+##### Blocking from merging on The weekend

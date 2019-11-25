@@ -1,0 +1,18 @@
+{
+  "name": "WeekendBlocker",
+  "description": "Blocking from merging on The weekend",
+  "version": "1.0.1",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_scripts": [ {
+    "js": [ "jquery.js", "script.js"],
+    "css": [ "style.css"],
+    "matches": [ "https://github.com/guestyorg/*"]
+  } ],
+  "permissions": ["activeTab", "https://github.com/guestyorg/*"],
+  "manifest_version": 2,
+  "icons":{
+  	"16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
+}
